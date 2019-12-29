@@ -40,8 +40,8 @@
     <composite.revision>1.0</composite.revision>
     <partition>default</partition>
     <serverUrl>${oracleServerUrl}</serverUrl>
-    <oracleUsername>${oracleUsername}</oracleUsername>
-    <oraclePassword>${oraclePassword}</oraclePassword>
+    <user>${oracleUsername}</user>
+    <password>${oraclePassword}</password>
     <overwrite>true</overwrite>
     <forceDefault>true</forceDefault>
     <regenerateRulebase>false</regenerateRulebase>
@@ -68,8 +68,8 @@
           <composite>${scac.input}</composite>
           <sarLocation>${scac.output.dir}/sca_${project.artifactId}_rev${project.version}.jar</sarLocation>
           <serverUrl>${serverUrl}</serverUrl>
-          <user>${oracleUsername}</user>
-          <password>${oraclePassword}</password>
+          <user>${user}</user>
+          <password>${password}</password>
           <!-- Note: compositeRevision is needed to package, revision is needed to undeploy -->
           <compositeRevision>${composite.revision}</compositeRevision>
           <revision>${composite.revision}</revision>
