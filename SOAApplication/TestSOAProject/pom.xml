@@ -40,7 +40,7 @@
     <composite.revision>${project.version}</composite.revision>
     <partition>default</partition>
     <serverUrl>${oracleServerUrl}</serverUrl>
-    <user>weblogic</user>
+    <user>${oracleUserName}</user>
     <password>welcome1</password>
     <overwrite>true</overwrite>
     <forceDefault>true</forceDefault>
