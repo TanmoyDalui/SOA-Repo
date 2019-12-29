@@ -82,7 +82,6 @@
     </plugins>
   </build>
   
-  <localRepository>C:/Users/255162/.m2/repository</localRepository>
   <repositories>
 	  <repository>
 		<id>maven.oracle.com</id>
