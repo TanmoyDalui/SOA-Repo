@@ -75,6 +75,7 @@
           <revision>${composite.revision}</revision>
           <scacInputDir>${scac.input.dir}</scacInputDir>
           <input>${input}</input>
+		  <appHome>${project.basedir}/..</appHome>
 		  <oracleHome>${oracleHome}/soa</oracleHome>
         </configuration>
         <!-- extensions=true is needed to use the custom sar packaging type -->
