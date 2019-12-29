@@ -24,7 +24,7 @@
           <system>false</system>
           <!--<customization>${basedir}/Resources/Customization/OSBCustomizationFile_${env}_R2.xml</customization>-->
           <oracleServerUrl>${oracleServerUrl}</oracleServerUrl>
-          <oracleUsername>${oracleUsername}</oracleUsername>
+          <oracleUsername>${oracleUserName}</oracleUsername>
           <oraclePassword>${oraclePassword}</oraclePassword>
           <!-- Configure the export level of the release, possible values are PROJECT and RESOURCE -->
           <exportLevel>RESOURCE</exportLevel>
