@@ -6,7 +6,7 @@
            the whole SOA Application, which may contain additional projects. 
         -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>nl.cvgz</groupId>
+    <groupId>com.oracle.soa</groupId>
     <artifactId>MDS</artifactId>
     <version>1.0</version>
     <packaging>sar</packaging>
