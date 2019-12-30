@@ -7,7 +7,7 @@
   </formats>
   <fileSets>
 	<fileSet>
-      <directory>../../../GedeeldeObjecten/apps</directory>
+      <directory>apps</directory>
       <outputDirectory>/</outputDirectory>
 	  <includes>
         <include>services/**</include>
