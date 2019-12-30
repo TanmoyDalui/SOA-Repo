@@ -72,7 +72,7 @@
     <receive name="receiveInput" partnerLink="helloworldbpelprocess_client" portType="client:HelloWorldBPELProcess" operation="process" variable="inputVariable" createInstance="yes"/>
     <assign name="Assign1">
       <copy>
-        <from>dvm:lookupValue('oramds:/dvm/OneToOneMapping.dvm', 'Key', 'Age', 'Value', 'Not Available')</from>
+        <from>dvm:lookupValue('oramds:/apps/dvm/OneToOneMapping.dvm', 'Key', 'Age', 'Value', 'Not Available')</from>
         <to expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0">$ageValue</to>
       </copy>
       <copy>
