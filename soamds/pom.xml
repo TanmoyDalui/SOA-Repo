@@ -70,7 +70,7 @@
         <configuration>
           <compositeName>${project.artifactId}</compositeName>
           <composite>${scac.input}</composite>
-          <sarLocation>${scac.output.dir}/sca_${project.artifactId}_rev${project.version}.jar</sarLocation>
+          <sarLocation>${scac.output.dir}/sca-${project.artifactId}_rev${project.version}.jar</sarLocation>
           <serverUrl>${serverUrl}</serverUrl>
           <user>${user}</user>
           <password>${password}</password>
@@ -90,7 +90,7 @@
 			<artifactId>maven-assembly-plugin</artifactId>
 			<version>2.4.1</version>
 			<configuration>
-				<!--<finalName></finalName>-->
+				<finalName>sca</finalName>
 				<descriptors>
 					<descriptor>zip-assembly-descriptor.xml</descriptor>
 				</descriptors>
